@@ -7,3 +7,36 @@ let money = 25;
 money = 35;
 console.log(money);
 
+
+const bird = 'jaan pakhi'
+// bird = 'moyna pakhi';
+const message = bird + ' potas potas'
+console.log(message);
+
+// to reassign use let
+// can't reassign using const
+
+const numbers = [12, 89, 65, 45];
+// reassign is not allowed
+// numbers = [77, 66, 55, 22, 99];
+numbers.push(123);
+numbers[1] = 90;
+console.log(numbers);
+
+// can't reassign full value...but partially is allowed
+const student = {
+    name: 'mofiz',
+    address: 'Rongpur'
+}
+// student = {name: 'Mofazzol'}
+student.name = 'Mofazzol';
+
+let sum = 0;
+for(let i = 0; i < numbers.length; i++){
+    const number = numbers[i];
+    sum = sum + number;
+}
+console.log(number)
+
+
+

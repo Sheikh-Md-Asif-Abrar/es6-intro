@@ -24,3 +24,9 @@ const summary = 'sum of: ' + a + ' and ' + b + ' is: '+ (a+b);
 
 const newSummary = `sum of ${a} and ${nums.length} is: ${a+b}`
 console.log(newSummary)
+
+
+const name = 'Hero';
+const greetings =`Welcome Home!${name}`;
+// const greetings = 'Welcome Home!'+''+name;
+console.log(greetings)
